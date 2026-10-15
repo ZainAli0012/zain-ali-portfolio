@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zain - Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Zain</div>
+
+        <nav class="nav-links">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Contact.html" class="active">Contact</a>
+        </nav>
+
+        <a href="Contact.html" class="btn btn-purple nav-btn">Let's Talk</a>
+    </header>
+
+    <section class="contact-container" id="contact">
+        <div class="contact-heading">
+            <h1>Contact <span>Me</span></h1>
+            <p>Have a job, internship, or project opportunity? Let's connect and work together.</p>
+        </div>
+
+        <div class="contact-content">
+
+            <div class="contact-info">
+                <h2>Let's Talk</h2>
+                <p>
+                    I am open to frontend development opportunities, internships,
+                    and exciting projects. Feel free to contact me.
+                </p>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:zainaleee7644@gmail.com">zainaleee7644@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/" target="_blank">Visit my LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/" target="_blank">Visit my GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <h2>Send Me a Message</h2>
+
+                <form action="mailto:zainaleee7644@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="Message" rows="5" placeholder="Write your message..." required></textarea>
+
+                    <button type="submit" class="btn btn-purple">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Zain Ali. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
